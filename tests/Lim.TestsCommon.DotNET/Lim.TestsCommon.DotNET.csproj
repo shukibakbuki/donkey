@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>disable</Nullable>
+        <NoWarn>$(NoWarn);VSTHRD200</NoWarn>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Moq" />
+        <PackageReference Include="xunit.abstractions" />
+        <PackageReference Include="xunit.assert" />
+        <PackageReference Include="xunit.extensibility.execution" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\Lim.Common.DotNET\Lim.Common.DotNET.csproj" />
+        <ProjectReference Include="..\..\src\Lim.FeaturesExtractor.Unified\Lim.FeaturesExtractor.Unified.csproj" />
+    </ItemGroup>
+</Project>
