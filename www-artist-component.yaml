@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Donkey
+  description: Donkey
+  tags:
+    - go
+    - donkeys
+  links:
+   - url: https://github.com/shukibakbuki/donkey
+     title: GitHub Repo
+     icon: github
+spec:
+  type: repo
+  lifecycle: production
+  owner: team-a
+  system: artist-engagement-portal
