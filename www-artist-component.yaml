@@ -14,3 +14,4 @@ spec:
   lifecycle: production
   owner: team-a
   system: artist-engagement-portal
+  system: repos
