@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: donkey-2
+  description: electric_bugaloo
+  tags:
+    - boom
+    - shalock
+    - lock
+  links:
+    - url: https://github.com/shukibakbuki/donkey
+
+spec:
+  type: repo
+  lifecycle: production
+  owner: team-b
+  system: artist-engagement-portal
