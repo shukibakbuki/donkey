@@ -1,12 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: donkey-2
-  description: electric_bugaloo
+  name: 
+  description: Artist
   tags:
-    - boom
-    - shalock
-    - lock
+    - growth
+
   links:
     - url: https://github.com/shukibakbuki/donkey
 
