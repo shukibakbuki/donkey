@@ -5,7 +5,7 @@ metadata:
   description: Donkey
   tags:
     - go
-    - donkeys
+    - java
     - river
   links:
     - url: https://github.com/shukibakbuki/donkey
